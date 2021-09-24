@@ -1,6 +1,6 @@
 <template>
   <div class="admin">
-    <b-nav vertical class="sidebar-content">
+    <b-nav :class="[ visibleSidebar ? 'd-none' : '' ]" vertical class="sidebar-content">
       <div>
         <h1>Menu</h1>
       </div>
@@ -10,8 +10,11 @@
     </b-nav>
     <div class="content-custom">
       <b-navbar type="dark" variant="dark">
-        <b-navbar-nav>
-          <router-link to="/" class="nav-link">Home</router-link>
+        <div class="d-flex align-items-center mr-3">
+          <span @click="isVisibleSidebar" class="navbar-toggler-icon"></span>
+        </div>
+        <b-navbar-nav>          
+          <router-link to="/" class="nav-link">Home</router-link>          
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-item-dropdown text="User" right>
@@ -42,12 +45,16 @@ export default {
   },
   data() {
     return {
-      option: 1
+      option: 1,
+      visibleSidebar: true
     }
   },
   methods: {
     changeOption(i) {
       this.option = i
+    },
+    isVisibleSidebar() {
+      this.visibleSidebar = !this.visibleSidebar
     }
   },
 }
