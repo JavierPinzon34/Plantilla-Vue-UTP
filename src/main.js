@@ -9,6 +9,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import Home from './components/index.vue'
 import Login from './components/login.vue'
 import Admin from './components/admin.vue'
+import Services from './components/services.vue'
 
 Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)
@@ -19,7 +20,8 @@ Vue.config.productionTip = false
 const routes = [
   { path: '/', component: Home },
   { path: '/login', component: Login},
-  { path: '/admin', component: Admin}
+  { path: '/admin', component: Admin},
+  { path: '/services', component: Services}
 ]
 
 const router = new VueRouter({

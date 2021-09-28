@@ -1,6 +1,6 @@
 <template>
   <div class="admin">
-    <b-nav :class="[ visibleSidebar ? 'd-none' : '' ]" vertical class="sidebar-content">
+    <b-nav :class="[ !visibleSidebar ? 'd-none' : '' ]" vertical class="sidebar-content">
       <div>
         <h1>Menu</h1>
       </div>

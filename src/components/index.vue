@@ -10,6 +10,7 @@
           <b-navbar-nav>
             <b-nav-item href="#section1">Seccion 1</b-nav-item>
             <b-nav-item href="#section2">Seccion 2</b-nav-item>
+            <router-link class="nav-link" to="/services">Servicios</router-link>
           </b-navbar-nav>
 
           <!-- Right aligned nav items -->
@@ -115,6 +116,75 @@
       </section>
       <section id="section2" class="mt-5">
         <h1 class="mb-4">Segunda sección</h1>
+        <b-row>
+          <b-col sm="6" md="4" lg="3">
+            <b-card
+              title="Card Title"
+              img-src="https://placekitten.com/1000/300"
+              img-alt="Image"
+              img-top
+              tag="article"
+              class="mb-2"
+            >
+              <b-card-text>
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </b-card-text>
+
+              <b-button href="#" variant="primary">Go somewhere</b-button>
+            </b-card>
+          </b-col>
+          <b-col sm="6" md="4" lg="3">
+            <b-card
+              title="Card Title"
+              img-src="https://placekitten.com/1000/300"
+              img-alt="Image"
+              img-top
+              tag="article"
+              class="mb-2"
+            >
+              <b-card-text>
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </b-card-text>
+
+              <b-button href="#" variant="primary">Go somewhere</b-button>
+            </b-card>
+          </b-col>
+          <b-col sm="6" md="4" lg="3">
+            <b-card
+              title="Card Title"
+              img-src="https://placekitten.com/1000/300"
+              img-alt="Image"
+              img-top
+              tag="article"
+              class="mb-2"
+            >
+              <b-card-text>
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </b-card-text>
+
+              <b-button href="#" variant="primary">Go somewhere</b-button>
+            </b-card>
+          </b-col>
+          <b-col sm="6" md="4" lg="3">
+            <b-card
+              title="Card Title"
+              img-src="https://placekitten.com/1000/300"
+              img-alt="Image"
+              img-top
+              tag="article"
+              class="mb-2"
+            >
+              <b-card-text>
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </b-card-text>
+
+              <b-button href="#" variant="primary">Go somewhere</b-button>
+            </b-card>
+          </b-col>
+        </b-row>
+      </section>
+      <section id="section3" class="mt-5">
+        <h1 class="mb-4">Tercera sección</h1>
         <b-row>
           <b-col sm="6" md="4" lg="3">
             <b-card
