@@ -6,6 +6,7 @@ import VueRouter from 'vue-router'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+//importando las paginas de /views
 import Home from './views/index.vue'
 import Login from './views/login.vue'
 import Admin from './views/admin.vue'
@@ -17,6 +18,7 @@ Vue.use(VueRouter)
 
 Vue.config.productionTip = false
 
+//creando las rutas de navegación.
 const routes = [
   { path: '/', component: Home },
   { path: '/login', component: Login},
