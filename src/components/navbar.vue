@@ -10,7 +10,7 @@
           <!-- <b-nav-item href="#section1">Seccion 1</b-nav-item>
           <b-nav-item href="#section2">Seccion 2</b-nav-item> -->
           <router-link class="nav-link" to="/">Inicio</router-link>
-          <router-link class="nav-link" to="/services">Servicios</router-link>
+          <router-link class="nav-link" to="/services">Contacto</router-link>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
