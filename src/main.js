@@ -6,10 +6,10 @@ import VueRouter from 'vue-router'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-import Home from './components/index.vue'
-import Login from './components/login.vue'
-import Admin from './components/admin.vue'
-import Services from './components/services.vue'
+import Home from './views/index.vue'
+import Login from './views/login.vue'
+import Admin from './views/admin.vue'
+import Services from './views/services.vue'
 
 Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)
