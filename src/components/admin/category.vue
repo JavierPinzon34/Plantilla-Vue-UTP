@@ -60,7 +60,7 @@
   </div>
 </template>
 <script>
-import axios from 'axios'
+//import axios from 'axios'
   export default {
     data() {
       return {
@@ -83,7 +83,15 @@ import axios from 'axios'
     methods: {
       onSubmit(event) {
         event.preventDefault()
-        alert(JSON.stringify(this.form))
+        /* alert(JSON.stringify(this.form)) */
+        this.$swal('Hello Vue world!!!')
+        this.$swal({
+          position: 'top-end',
+          icon: 'success',
+          title: 'Your work has been saved',
+          showConfirmButton: false,
+          timer: 2000
+        })
       },
       onReset(event) {
         event.preventDefault()

@@ -7,7 +7,7 @@
     </div>
     <div class="container mt-5">
       <section id="section1">
-        <h1 class="mb-4">Servicio</h1>
+        <h1 class="mb-4">Primera seccion</h1>
         <b-row>
           <b-col sm="6" md="4" lg="3">
             <b-card

@@ -7,6 +7,7 @@
       <b-nav-item @click="changeOption(1)" :class="[ option==1 ? 'active' : '']">Categorias</b-nav-item>
       <b-nav-item @click="changeOption(2)" :class="[ option==2 ? 'active' : '']">Articulos</b-nav-item>
       <b-nav-item @click="changeOption(3)" :class="[ option==3 ? 'active' : '']">Usuarios</b-nav-item>
+      <b-nav-item @click="changeOption(3)" :class="[ option==3 ? 'active' : '']">Otro item</b-nav-item>
     </b-nav>
     <div class="content-custom">
       <b-navbar type="dark" variant="dark">
@@ -60,37 +61,37 @@ export default {
 }
 </script>
 <style>
-.admin {
-  display: flex;
-}
-.admin .sidebar-content {
-  background-color: azure;
-  width: 300px;
-  height: 100vh;
-}
-.admin .sidebar-content h1 {
-  border-bottom: 1px solid black;
-  margin-bottom: unset;
-}
-.admin .sidebar-content .nav-item .nav-link {
-  color: black;
-}
-.admin .sidebar-content .nav-item :hover {
-  background-color: blue;
-}
-.admin .content-custom {
-  width: 100%;
-}
-.admin .content-custom .navbar {
-  height: 49px;
-}
-.active {
-  background-color: rgb(167, 167, 255);
-}
-.dropdown-item a {
-  color: #212529;  
-}
-a :hover {
-  text-decoration: none;
-}
+  .admin {
+    display: flex;
+  }
+  .admin .sidebar-content {
+    background-color: azure;
+    width: 300px;
+    height: 100vh;
+  }
+  .admin .sidebar-content h1 {
+    border-bottom: 1px solid black;
+    margin-bottom: unset;
+  }
+  .admin .sidebar-content .nav-item .nav-link {
+    color: black;
+  }
+  .admin .sidebar-content .nav-item :hover {
+    background-color: blue;
+  }
+  .admin .content-custom {
+    width: 100%;
+  }
+  .admin .content-custom .navbar {
+    height: 49px;
+  }
+  .active {
+    background-color: rgb(167, 167, 255);
+  }
+  .dropdown-item a {
+    color: #212529;  
+  }
+  a :hover {
+    text-decoration: none;
+  }
 </style>
